@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+.bgprincipal {
+    background-image: url(https://i.postimg.cc/vmThjfbH/cor-do-ano-tons-roxos-paisagem-abstrata-com-estetica-de-fantasia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+};
