@@ -1,0 +1,65 @@
+.saudacoes {
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.titulo {
+    position: relative;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 48px;
+    font-weight: bold;
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo .highlight {
+    animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #03643c;
+    }
+    /* Verde */
+    33% {
+        color: #007bff;
+    }
+    /* Azul */
+    66% {
+        color: #b49a05;
+    }
+    /* Amarelo */
+    100% {
+        color: #03643d;
+    }
+    /* Volta ao verde */
+}
+
+.subtitle {
+    position: relative;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #050505;
+}
